@@ -5,8 +5,8 @@ var zipFolder = require('zip-folder');
 var args = process.argv.slice(2);
 
 
-clean(args[0] || './');
-zip();
+// clean(args[0] || './');
+// zip();
 
 function clean(path) {
     if (fs.existsSync(path + '/content')) fs.unlinkSync(path + '/content');
