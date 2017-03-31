@@ -1,5 +1,5 @@
 var fs = require('fs');
-var admZip = require('adm-zip');
+var zipFolder = require('zip-folder');
 
 
 var args = process.argv.slice(2);
@@ -16,7 +16,7 @@ function clean(path) {
 }
 
 function zip() {
-    var zip = new admZip();
-    zip.addLocalFolder('dist');
-    zip.writeZip("test.zip");
+    zipFolder('dist', 'archive.zip', function(err) {
+        if (err) throw err;
+    })
 }

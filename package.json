@@ -16,6 +16,6 @@
   "_from": "git+https://github.com/SmarTi01/nodeTest.git",
   "_resolved": "git+https://github.com/SmarTi01/nodeTest.git#48d834587c6cf7b19b274a308ef13b4d9f66eb53",
   "dependencies": {
-    "adm-zip": "^0.4.7"
+    "zip-folder": "^1.0.0"
   }
 }
