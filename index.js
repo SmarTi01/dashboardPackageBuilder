@@ -17,6 +17,6 @@ function clean(path) {
 
 function zip() {
     var zip = new admZip();
-    zip.addLocalFile('dist/*');
+    zip.addLocalFolder('dist');
     zip.writeZip("test.zip");
 }
