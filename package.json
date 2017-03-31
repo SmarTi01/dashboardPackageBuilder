@@ -7,5 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "48d834587c6cf7b19b274a308ef13b4d9f66eb53",
+  "readme": "# nodeTest",
+  "readmeFilename": "README.md",
+  "_id": "mynode@1.0.0",
+  "_shasum": "70c7b228e237f5b908209ffd98b0942c6aba1329",
+  "_from": "git+https://github.com/SmarTi01/nodeTest.git",
+  "_resolved": "git+https://github.com/SmarTi01/nodeTest.git#48d834587c6cf7b19b274a308ef13b4d9f66eb53",
+  "dependencies": {
+    "adm-zip": "^0.4.7"
+  }
 }
