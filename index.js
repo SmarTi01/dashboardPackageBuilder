@@ -9,10 +9,10 @@ var args = process.argv.slice(2);
 // zip();
 
 exports.clean = function clean() {
-    if (fs.existsSync('/content')) fs.unlinkSync(path + '/content');
-    if (fs.existsSync('/dashboard')) fs.unlinkSync(path + '/dashboard');
-    if (fs.existsSync('*.zip')) fs.unlinkSync(path + '*.zip');
-    if (fs.existsSync('index.html')) fs.unlinkSync(path + 'index.html');
+    if (fs.existsSync('/content')) fs.unlinkSync('/content');
+    if (fs.existsSync('/dashboard')) fs.unlinkSync('/dashboard');
+    if (fs.existsSync('*.zip')) fs.unlinkSync('*.zip');
+    if (fs.existsSync('index.html')) fs.unlinkSync('index.html');
 }
 
 exports.zip = function zip() {
