@@ -6,7 +6,7 @@ var args = process.argv.slice(2);
 
 
 clean(args[0] || './');
-// zip();
+zip();
 
 function clean(path) {
     if (fs.existsSync(path + '/content')) fs.unlinkSync(path + '/content');
